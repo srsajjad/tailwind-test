@@ -122,7 +122,10 @@ export default function Component() {
         <header className="bg-white shadow-sm">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-between h-16">
-              <div className="flex items-center flex-grow">
+              <div
+                className="flex items-center flex-grow-0"
+                style={{ flexBasis: "50%" }}
+              >
                 <a href="/" className="text-2xl font-bold text-gray-800">
                   Drukland.de
                 </a>
@@ -222,7 +225,7 @@ export default function Component() {
               </div>
 
               {/* desktop search */}
-              <div className="hidden md:block flex-grow-0.8">
+              <div className="hidden md:block flex-grow">
                 <div className="relative mx-4 flex justify-end">
                   <input
                     type="text"
@@ -248,7 +251,7 @@ export default function Component() {
                 </div>
               </div>
 
-              <div className="flex items-center space-x-4">
+              <div className="flex items-center space-x-4 flex-grow-0">
                 <div className="flex items-center space-x-4">
                   <img
                     src="/car.svg"
