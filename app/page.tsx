@@ -198,7 +198,7 @@ export default function Component() {
                   <input
                     type="text"
                     placeholder="Search"
-                    className="w-full pl-10 pr-10 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-gray-500 text-gray-800"
+                    className="w-full pl-10 pr-10 py-1.5 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-gray-500 text-gray-800"
                     style={{ color: "#292929" }}
                   />
                   <svg
@@ -323,17 +323,28 @@ export default function Component() {
               </a>
             </div>
             <div className="px-4 py-3">
-              <div className="relative">
+              <div className="relative w-full">
                 <input
                   type="text"
                   placeholder="Search"
-                  className="w-full pl-3 pr-10 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-gray-500"
+                  className="w-full pl-10 pr-10 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-gray-500 text-gray-800"
+                  style={{ color: "#292929" }}
                 />
-                <img
-                  src=""
-                  alt="Search"
-                  className="absolute right-3 top-2.5 h-5 w-5 text-gray-400"
-                />
+                <svg
+                  className="absolute left-3 top-2.5 h-5 w-5 text-gray-400"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  style={{ color: "#292929" }}
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M21 21l-4.35-4.35M16.65 10.65a6 6 0 11-12 0 6 6 0 0112 0z"
+                  />
+                </svg>
               </div>
             </div>
           </div>
