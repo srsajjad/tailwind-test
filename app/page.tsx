@@ -126,9 +126,20 @@ export default function Component() {
                 <a href="/" className="text-2xl font-bold text-gray-800">
                   Drukland.de
                 </a>
-                <nav className="hidden md:ml-8 md:flex md:space-x-8">
+
+                <nav className="hidden md:ml-4 md:flex md:space-x-6">
                   <div className="relative group">
-                    <button className="flex items-center text-gray-500 hover:text-gray-800">
+                    <button
+                      className="flex items-center text-black hover:text-gray-800"
+                      style={{
+                        fontSize: "16px",
+                        fontWeight: 400,
+                        lineHeight: "19.68px",
+                        textAlign: "left",
+                        textUnderlinePosition: "from-font",
+                        textDecorationSkipInk: "none",
+                      }}
+                    >
                       Business
                       <ChevronDown className="ml-1 h-4 w-4" />
                     </button>
@@ -156,7 +167,17 @@ export default function Component() {
                     </div>
                   </div>
                   <div className="relative group">
-                    <button className="flex items-center text-gray-500 hover:text-gray-800">
+                    <button
+                      className="flex items-center text-black hover:text-gray-800"
+                      style={{
+                        fontSize: "16px",
+                        fontWeight: 400,
+                        lineHeight: "19.68px",
+                        textAlign: "left",
+                        textUnderlinePosition: "from-font",
+                        textDecorationSkipInk: "none",
+                      }}
+                    >
                       Products
                       <ChevronDown className="ml-1 h-4 w-4" />
                     </button>
@@ -185,7 +206,15 @@ export default function Component() {
                   </div>
                   <a
                     href="/about"
-                    className="text-gray-500 hover:text-gray-800"
+                    className="text-black hover:text-gray-800"
+                    style={{
+                      fontSize: "16px",
+                      fontWeight: 400,
+                      lineHeight: "19.68px",
+                      textAlign: "left",
+                      textUnderlinePosition: "from-font",
+                      textDecorationSkipInk: "none",
+                    }}
                   >
                     About Us
                   </a>
