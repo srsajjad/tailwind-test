@@ -386,7 +386,7 @@ export default function Component() {
               {/* Service Image Placeholder */}
               <div className="bg-white rounded-lg shadow-lg p-8 flex items-center justify-center min-h-[500px] w-full md:w-4/6">
                 <div className="text-center text-gray-500">
-                  <p className="text-2xl mb-4">Image or Video</p>
+                  <p className="text-2xl">Image or Video</p>
                   <p className="text-lg">of our services</p>
                 </div>
               </div>
