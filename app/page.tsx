@@ -122,12 +122,12 @@ export default function Component() {
         <header className="bg-white shadow-sm">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-between h-16">
-              <div className="flex items-center">
+              <div className="flex items-center flex-grow">
                 <a href="/" className="text-2xl font-bold text-gray-800">
                   Drukland.de
                 </a>
 
-                <nav className="hidden md:ml-4 md:flex md:space-x-6">
+                <nav className="hidden md:ml-4 md:flex md:space-x-4 md:ml-auto">
                   <div className="relative group">
                     <button
                       className="flex items-center text-black hover:text-gray-800"
@@ -222,8 +222,8 @@ export default function Component() {
               </div>
 
               {/* desktop search */}
-              <div className="hidden md:block flex-1">
-                <div className="relative mx-4">
+              <div className="hidden md:block flex-grow-0.8">
+                <div className="relative mx-4 flex justify-end">
                   <input
                     type="text"
                     placeholder="Search"
