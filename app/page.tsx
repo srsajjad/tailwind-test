@@ -122,15 +122,12 @@ export default function Component() {
         <header className="bg-white shadow-sm">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-between h-16">
-              <div
-                className="flex items-center flex-grow-0"
-                style={{ flexBasis: "50%" }}
-              >
+              <div className="flex items-center flex-grow-0 flex-[0_1_50%] min-w-min gap-4">
                 <a href="/" className="text-2xl font-bold text-gray-800">
                   Drukland.de
                 </a>
 
-                <nav className="hidden md:ml-4 md:flex md:space-x-4 md:ml-auto">
+                <nav className="hidden md:ml-4 md:flex md:space-x-4 md:ml-auto flex-shrink-0">
                   <div className="relative group">
                     <button
                       className="flex items-center text-black hover:text-gray-800"
