@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 "use client";
 
 import {
@@ -58,6 +59,7 @@ export default function Component() {
         toast.error(data.message || "Something went wrong. Please try again.");
       }
     } catch (error) {
+      console.log(error);
       toast.error("Failed to connect to the server. Please try again.");
     } finally {
       setIsLoading(false);
