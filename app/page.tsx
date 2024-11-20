@@ -21,6 +21,9 @@ const theme = createTheme({
       main: "#666666",
     },
   },
+  typography: {
+    fontFamily: "var(--font-clash-display)",
+  },
 });
 
 export default function Component() {
