@@ -501,10 +501,10 @@ export default function Component() {
         <footer className="bg-white border-t mt-auto">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-              <p className="text-sm text-gray-500">
+              <p className="text-sm text-black text-left font-normal leading-[17.22px] decoration-skip-ink">
                 All rights reserved © 2024 | Drukland.de
               </p>
-              <div className="flex space-x-4 text-sm text-gray-500">
+              <div className="flex space-x-4 text-sm text-black text-left font-normal leading-[17.22px] decoration-skip-ink">
                 <a href="/terms" className="hover:text-gray-800">
                   Terms of Use
                 </a>
