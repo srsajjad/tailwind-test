@@ -66,7 +66,7 @@ export default function Component() {
 
   return (
     <ThemeProvider theme={theme}>
-      <div className="min-h-screen flex flex-col bg-gray-50">
+      <div className="min-h-screen flex flex-col bg-[#F1F1F1]">
         {/* Top Bar */}
         <div className="bg-[#DDDDDD] border-b h-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center justify-end space-x-4 text-sm text-[#0B0B0B]">
@@ -498,9 +498,9 @@ export default function Component() {
         </main>
 
         {/* Footer */}
-        <footer className="bg-white border-t mt-auto">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-            <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+        <footer className="bg-[#F1F1F1] mt-auto">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 ">
+            <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 border-t-[0.4px] border-gray-400 py-4">
               <p className="text-sm text-black text-left font-normal leading-[17.22px] decoration-skip-ink">
                 All rights reserved © 2024 | Drukland.de
               </p>
