@@ -77,8 +77,7 @@ export default function Component() {
               <img
                 src="/question-outline.svg"
                 alt="ChevronDown"
-                className="ml-1"
-                style={{ height: "16px", width: "16px" }}
+                className="ml-1 h-4 w-4"
               />
             </a>
             <a
@@ -89,8 +88,7 @@ export default function Component() {
               <img
                 src="/message.svg"
                 alt="ChevronDown"
-                className="ml-1"
-                style={{ height: "16px", width: "16px" }}
+                className="ml-1 h-4 w-4"
               />
             </a>
             <a
@@ -98,12 +96,7 @@ export default function Component() {
               className="hover:text-gray-700 flex items-center"
             >
               <span className="flex items-center">Live Support</span>
-              <img
-                src="/chat.svg"
-                alt="ChevronDown"
-                className="ml-1"
-                style={{ height: "16px", width: "16px" }}
-              />
+              <img src="/chat.svg" alt="ChevronDown" className="ml-1 h-4 w-4" />
             </a>
             <a
               href="/contact"
@@ -113,8 +106,7 @@ export default function Component() {
               <img
                 src="/person-outline.svg"
                 alt="ChevronDown"
-                className="ml-1"
-                style={{ height: "12px", width: "12px" }}
+                className="ml-1 h-3 w-3"
               />
             </a>
           </div>
@@ -131,17 +123,7 @@ export default function Component() {
 
                 <nav className="hidden md:ml-4 md:flex md:space-x-4 md:ml-auto flex-shrink-0">
                   <div className="relative group">
-                    <button
-                      className="flex items-center text-black hover:text-gray-800"
-                      style={{
-                        fontSize: "16px",
-                        fontWeight: 400,
-                        lineHeight: "19.68px",
-                        textAlign: "left",
-                        textUnderlinePosition: "from-font",
-                        textDecorationSkipInk: "none",
-                      }}
-                    >
+                    <button className="flex items-center text-black hover:text-gray-800 text-base font-normal leading-5 text-left no-underline">
                       Business
                       <ChevronDown className="ml-1 h-4 w-4" />
                     </button>
@@ -169,17 +151,7 @@ export default function Component() {
                     </div>
                   </div>
                   <div className="relative group">
-                    <button
-                      className="flex items-center text-black hover:text-gray-800"
-                      style={{
-                        fontSize: "16px",
-                        fontWeight: 400,
-                        lineHeight: "19.68px",
-                        textAlign: "left",
-                        textUnderlinePosition: "from-font",
-                        textDecorationSkipInk: "none",
-                      }}
-                    >
+                    <button className="flex items-center text-black hover:text-gray-800 text-base font-normal leading-5 text-left no-underline">
                       Products
                       <ChevronDown className="ml-1 h-4 w-4" />
                     </button>
@@ -208,15 +180,7 @@ export default function Component() {
                   </div>
                   <a
                     href="/about"
-                    className="text-black hover:text-gray-800"
-                    style={{
-                      fontSize: "16px",
-                      fontWeight: 400,
-                      lineHeight: "19.68px",
-                      textAlign: "left",
-                      textUnderlinePosition: "from-font",
-                      textDecorationSkipInk: "none",
-                    }}
+                    className="text-black hover:text-gray-800 text-base font-normal leading-5 text-left no-underline"
                   >
                     About Us
                   </a>
@@ -230,7 +194,6 @@ export default function Component() {
                     type="text"
                     placeholder="Search"
                     className="w-full pl-10 pr-10 py-1.5 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-gray-500 text-gray-800"
-                    style={{ color: "#292929" }}
                   />
                   <svg
                     className="absolute left-3 top-2.5 h-5 w-5 text-gray-400"
@@ -238,7 +201,6 @@ export default function Component() {
                     stroke="currentColor"
                     viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"
-                    style={{ color: "#292929" }}
                   >
                     <path
                       strokeLinecap="round"
@@ -252,23 +214,12 @@ export default function Component() {
 
               <div className="flex items-center space-x-4 flex-grow-0">
                 <div className="flex items-center space-x-4">
-                  <img
-                    src="/car.svg"
-                    alt="Truck"
-                    className="h-6 w-6 text-gray-800"
-                    style={{ height: "25px", width: "25px" }}
-                  />
-                  <img
-                    src="/person.svg"
-                    alt="User"
-                    className="h-6 w-6 text-gray-800"
-                    style={{ height: "25px", width: "25px" }}
-                  />
+                  <img src="/car.svg" alt="Truck" className="h-6 w-6" />
+                  <img src="/person.svg" alt="User" className="h-6 w-6" />
                   <img
                     src="/bucket.svg"
                     alt="ShoppingCart"
-                    className="h-6 w-6 text-gray-800"
-                    style={{ height: "25px", width: "25px" }}
+                    className="h-6 w-6"
                   />
                 </div>
                 <button
@@ -359,7 +310,6 @@ export default function Component() {
                   type="text"
                   placeholder="Search"
                   className="w-full pl-10 pr-10 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-gray-500 text-gray-800"
-                  style={{ color: "#292929" }}
                 />
                 <svg
                   className="absolute left-3 top-2.5 h-5 w-5 text-gray-400"
@@ -367,7 +317,6 @@ export default function Component() {
                   stroke="currentColor"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
-                  style={{ color: "#292929" }}
                 >
                   <path
                     strokeLinecap="round"
